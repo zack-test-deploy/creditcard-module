@@ -1,0 +1,100 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.hotsauce.payments.creditcard",
+    "module": "creditcard-module",
+    "version": "1.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "creditcard-module-1.0-SNAPSHOT.jar",
+          "url": "creditcard-module-1.0-SNAPSHOT.jar",
+          "size": 261,
+          "sha512": "c8319b57725e7813daf50263da881df61fe6dd226f06d115ac26a7a290ad3b29718268367ee069f44b41b448419e8afa3f0050b3c39b35b0f637e1065ca3c279",
+          "sha256": "78a643f0dfc198defaf79a01dfe13ac81792a422bad21232dcc6ff514db6a261",
+          "sha1": "8dcc4c9a85a44098fafe451e14aa5e05cf0290c3",
+          "md5": "0647f2242834a914f1e721afd77bcbe6"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "creditcard-module-1.0-SNAPSHOT.jar",
+          "url": "creditcard-module-1.0-SNAPSHOT.jar",
+          "size": 261,
+          "sha512": "c8319b57725e7813daf50263da881df61fe6dd226f06d115ac26a7a290ad3b29718268367ee069f44b41b448419e8afa3f0050b3c39b35b0f637e1065ca3c279",
+          "sha256": "78a643f0dfc198defaf79a01dfe13ac81792a422bad21232dcc6ff514db6a261",
+          "sha1": "8dcc4c9a85a44098fafe451e14aa5e05cf0290c3",
+          "md5": "0647f2242834a914f1e721afd77bcbe6"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "creditcard-module-1.0-SNAPSHOT-sources.jar",
+          "url": "creditcard-module-1.0-SNAPSHOT-sources.jar",
+          "size": 261,
+          "sha512": "c8319b57725e7813daf50263da881df61fe6dd226f06d115ac26a7a290ad3b29718268367ee069f44b41b448419e8afa3f0050b3c39b35b0f637e1065ca3c279",
+          "sha256": "78a643f0dfc198defaf79a01dfe13ac81792a422bad21232dcc6ff514db6a261",
+          "sha1": "8dcc4c9a85a44098fafe451e14aa5e05cf0290c3",
+          "md5": "0647f2242834a914f1e721afd77bcbe6"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "creditcard-module-1.0-SNAPSHOT-javadoc.jar",
+          "url": "creditcard-module-1.0-SNAPSHOT-javadoc.jar",
+          "size": 261,
+          "sha512": "c8319b57725e7813daf50263da881df61fe6dd226f06d115ac26a7a290ad3b29718268367ee069f44b41b448419e8afa3f0050b3c39b35b0f637e1065ca3c279",
+          "sha256": "78a643f0dfc198defaf79a01dfe13ac81792a422bad21232dcc6ff514db6a261",
+          "sha1": "8dcc4c9a85a44098fafe451e14aa5e05cf0290c3",
+          "md5": "0647f2242834a914f1e721afd77bcbe6"
+        }
+      ]
+    }
+  ]
+}
