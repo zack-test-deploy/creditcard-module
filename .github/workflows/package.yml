@@ -1,4 +1,4 @@
-name: Deploy JAR to GitHub Packages (Organization)
+name: Publish package to GitHub Packages (Gradle)
 
 on:
   push:
@@ -17,20 +17,11 @@ jobs:
         uses: actions/setup-java@v3
         with:
           distribution: 'temurin'
-          java-version: '19'  # 根據你的專案需要
+          java-version: '19'
 
-      - name: Configure GitHub Packages Authentication
-        run: |
-          mkdir -p ~/.m2
-          echo "<settings>
-            <servers>
-              <server>
-                <id>github</id>
-                <username>${{ github.actor }}</username>
-                <password>${{ secrets.ORG_GITHUB_TOKEN }}</password>
-              </server>
-            </servers>
-          </settings>" > ~/.m2/settings.xml
-
-      - name: Build and Deploy
-        run: mvn deploy -s ~/.m2/settings.xml
+      - name: Publish package
+        run: ./gradlew publish
+        env: 
+          GITHUB_ORG: ${{ github.repository_owner }}
+          GITHUB_REPO: ${{ github.event.repository.name }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
