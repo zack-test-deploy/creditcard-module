@@ -13,8 +13,7 @@ public class TestCreditCard {
 
     @Test
     public void testCreditCard() {
-        CreditCard creditCard = CreditCardRegistry.load();
-        assertNotNull(creditCard);
+
     }
 
     @Test

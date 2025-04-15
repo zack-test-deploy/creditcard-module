@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestCreditCard" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-04-15T07:18:06" hostname="DESKTOP-6LJ5DPP" time="0.012">
+  <properties/>
+  <testcase name="testCreditCard()" classname="TestCreditCard" time="0.009"/>
+  <testcase name="testCreditCardSale()" classname="TestCreditCard" time="0.001"/>
+  <testcase name="testCreditCardVoid()" classname="TestCreditCard" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

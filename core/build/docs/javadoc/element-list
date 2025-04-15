@@ -1,0 +1,6 @@
+com.hotsauce.payments.creditcard.annotations
+com.hotsauce.payments.creditcard.core
+com.hotsauce.payments.creditcard.core.sale
+com.hotsauce.payments.creditcard.core.voidsale
+com.hotsauce.payments.creditcard.processors
+com.hotsauce.payments.creditcard.utils
