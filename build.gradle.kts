@@ -3,14 +3,13 @@ plugins {
     `maven-publish`
 }
 
-group = "com.hotsauce.payments.creditcard"
-version = "1.0-SNAPSHOT"
-
 repositories {
     mavenCentral()
 }
 
 allprojects{
+    group = "com.hotsauce.payments.creditcard"
+    version = "1.0-SNAPSHOT"
     plugins.apply("maven-publish")
     plugins.apply("java-library")
     publishing {
