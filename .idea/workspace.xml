@@ -5,23 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7e63dca-38e6-45c7-b8a8-c1ad2cf67cdb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/hotsauce/payments/creditcard/annotations/CreditCardImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/hotsauce/payments/creditcard/annotations/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/hotsauce/payments/creditcard/core/CreditCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/hotsauce/payments/creditcard/core/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/hotsauce/payments/creditcard/core/sale/Request.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/hotsauce/payments/creditcard/core/sale/Response.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/hotsauce/payments/creditcard/core/voidsale/Request.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/hotsauce/payments/creditcard/core/voidsale/Response.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/hotsauce/payments/creditcard/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/hotsauce/payments/creditcard/processors/CreditCardImplProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/hotsauce/payments/creditcard/processors/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/hotsauce/payments/creditcard/utils/CreditCardRegistry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/resources/META-INF/services/javax.annotation.processing.Processor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/test/java/TestCreditCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,6 +110,7 @@
     <option name="myCommands">
       <command value="gradle wrapper" />
       <command value="gradle clean" />
+      <command value="gradle publish" />
     </option>
   </component>
   <component name="RunManager">

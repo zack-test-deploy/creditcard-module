@@ -6,19 +6,8 @@ plugins {
 group = "com.hotsauce.payments.creditcard"
 version = "1.0-SNAPSHOT"
 
-
-val nexusRepoUrl = uri("http://hotsaucepos.ddns.net:8081/repository/maven-snapshots/")
-val nexusUsername: String = project.findProperty("nexusUser") as? String ?: "hotsauce-developer"
-val nexusPassword: String = project.findProperty("nexusPassword") as? String ?: "hotsauce987!"
-
 repositories {
     mavenCentral()
-    maven {
-        url = nexusRepoUrl
-        credentials {
-            username = nexusUsername
-        }
-    }
 }
 
 java {
@@ -27,20 +16,16 @@ java {
 }
 
 publishing {
-    publications {
-        create<MavenPublication>("mavenJava") {
-            from(components["java"])
-        }
-    }
     repositories {
         maven {
-            name = "nexus"
-            url = nexusRepoUrl
+            name = "GitHubPackages"
+            val org = System.getenv("GITHUB_ORG")
+            val repo = System.getenv("GITHUB_REPO")
+            url = uri("https://maven.pkg.github.com/$org/$repo")
             credentials {
-                username = nexusUsername
-                password = nexusPassword
+                username = System.getenv("GITHUB_ACTOR")
+                password = System.getenv("GITHUB_TOKEN")
             }
-            isAllowInsecureProtocol = true
         }
     }
 }
