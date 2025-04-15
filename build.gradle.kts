@@ -7,7 +7,7 @@ repositories {
     mavenCentral()
 }
 
-allprojects{
+subprojects{
     group = "com.hotsauce.payments.creditcard"
     version = "1.0-SNAPSHOT"
     plugins.apply("maven-publish")
