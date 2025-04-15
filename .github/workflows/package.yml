@@ -3,7 +3,7 @@ name: Deploy JAR to GitHub Packages (Organization)
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   deploy:
